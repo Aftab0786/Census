@@ -1,4 +1,5 @@
-﻿using System;
+﻿using IndianCensus.DTO;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,10 +7,12 @@ using System.Threading.Tasks;
 
 namespace IndianCensus
 {
-    internal class Program
+    public class CensusAnalyser
     {
-        static void Main(string[] args)
+        public enum Country
         {
+            INDIA, US
         }
+        
     }
 }
